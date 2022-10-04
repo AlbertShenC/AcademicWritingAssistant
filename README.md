@@ -22,7 +22,7 @@ This tool contains two parts, the server and the front end. The core of this too
 
 + Download pre-trained checkpoint from ... and save it at `./model/ckpt/`:
   
-  ![](assets/2022-10-04-11-55-13-1664855701892.png)
+  ![](assets/checkpoint.png)
 
 #### Prepare front end
 
@@ -44,7 +44,7 @@ This tool contains two parts, the server and the front end. The core of this too
 
 If all things go right, you will see `Model not loaded` or `Origin model loaded` or `Quantized model loaded`  on the suspended window in the lower right corner depending on your server state. I provide two kinds of model for you, the `Origin` one and the `Quantized` one. The `Origin` model will give a little bit better suggestion while run slower. You can switch it as your own will.
 
-![](assets/2022-10-04-09-29-31-1664846964971.png)
+![](assets/init_image.png)
 
 ### Example
 
@@ -56,23 +56,23 @@ This is a paper called [PIMNet](https://arxiv.org/abs/2109.04145), which is not 
 
 + The original words are `development of deep learning`
   
-  ![](assets/2022-10-04-11-35-16-1664854485414.png)
+  ![](assets/first.png)
 
 + The original words are `a good balance`
   
-  ![](assets/2022-10-03-23-18-27-5a5537fc12bbaad9b6a110d7621ae66.png)
+  ![](assets/second.png)
 
 + The original words are `Different from`
   
-  ![](assets/2022-10-03-23-20-21-35b1984caa037a675e10150ff2108ac.png)
+  ![](assets/third.png)
 
 + The original words are `Extensive experiments`
   
-  ![](assets/2022-10-03-23-20-58-7795a3e4c0999d56ba488f7cffb8b4d.png)
+  ![](assets/fourth.png)
 
 + The original words are `divided into`
   
-  ![](assets/2022-10-03-23-21-45-84ca6c2dcb4ae58fee506f484f148fc.png)
+  ![](assets/fifth.png)
 
 ### What can the model do?
 
