@@ -20,9 +20,11 @@ This tool contains two parts, the server and the front end. The core of this too
   pip install fastT5==0.1.4 django==3.2.15
   ```
 
-+ Download pre-trained checkpoint from ... and save it at `./model/ckpt/`:
++ Download pre-trained checkpoint from [here](https://github.com/AlbertShenC/AcademicWritingAssistant/releases) and save it at `./model/ckpt/`:
   
   ![](assets/checkpoint.png)
+  
+  You can download `decoder.onnx` `encoder.onnx` `init-decoder.onnx` for original setting, or `decoder-quantized.onnx` `encoder-quantized.onnx` `init-decoder-quantized.onnx` setting, or all the checkpoint as your own will. The original one is bigger, slower but performance better.
 
 #### Prepare front end
 
